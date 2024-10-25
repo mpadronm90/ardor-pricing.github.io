@@ -272,7 +272,7 @@ export function PricingTableComponent() {
             <Input type="text" name="company" value={formData.company} onChange={handleInputChange} />
           </div>
           <div className="mb-4">
-            <Label htmlFor="useCase">What do you want to use Ardor for?</Label>
+            <Label htmlFor="useCase">What ideas or goals do you have for using Ardor?</Label>
             <Textarea name="useCase" value={formData.useCase} onChange={handleInputChange} />
           </div>
           <Button type="submit" className="w-full bg-[#F57738] hover:bg-[#CA4EE5]">Submit</Button>
