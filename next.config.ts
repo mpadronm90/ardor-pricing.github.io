@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   output: 'export',
   distDir: 'docs',
+  basePath: '/ardor-pricing.github.io'
 };
 
 export default nextConfig;
